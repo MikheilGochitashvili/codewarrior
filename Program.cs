@@ -10,24 +10,6 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //List<int> MyFunction (int a, int b)
-            //{
-            //    List<int> array = new List<int>();
-
-            //    for(int i = a; i <= b; i++)
-            //    {
-            //        array.Add(i);
-            //    }
-
-            //    return array;
-            //}
-
-            //foreach(var item in MyFunction(1, 4))
-            //{
-            //    Console.WriteLine(item);
-            //}
-
-
             foreach(var item in Between(5, 9))
             {
                 Console.WriteLine(item);
@@ -46,8 +28,6 @@ namespace ConsoleApp1
 
             return array;
         }
-
-       
     }
 }
 
